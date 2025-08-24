@@ -31,6 +31,8 @@ sumit chakrobarty
 ^d
 ```
 ![Alt text](os_exp01_1.png)
+
+
 cat > file2
 ```
 anil aggarwal
@@ -46,7 +48,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-
+![Alt text](exp-1_3.png)
 
 cat < file2
 ## OUTPUT
