@@ -53,17 +53,25 @@ cat < file1
 cat < file2
 ## OUTPUT
 
+![Alt text](exp-1-4.png)
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+
+![Alt text](exp1-5.png)
  
 comm file1 file2
  ## OUTPUT
 
+![Alt text](exp1-6.png)
+
  
 diff file1 file2
 ## OUTPUT
+
+![Alt text](exp1-7.png)
 
 
 #Filters
@@ -88,7 +96,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![Alt text](exp1-8.png)
 
 
 cut -d "|" -f 1 file22
