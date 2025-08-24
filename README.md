@@ -30,6 +30,7 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+![Alt text](os_exp01_1.png)
 cat > file2
 ```
 anil aggarwal
@@ -39,6 +40,8 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+
+![Alt text](os_exp01_2.png)
 ### Display the content of the files
 cat < file1
 ## OUTPUT
