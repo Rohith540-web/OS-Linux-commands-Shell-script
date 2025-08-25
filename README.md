@@ -266,79 +266,89 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![Alt text](32.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![Alt text](33.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![Alt text](34.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![Alt text](35.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![Alt text](36.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![Alt text](37.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
+![Alt text](38.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![Alt text](39.png)
 
 seq 10 
 ## OUTPUT
 
-
+![Alt text](40.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-
+![Alt text](41.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
 
+![Alt text](42.png)
+
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![Alt text](43.png)
 
 
 seq 2 | sed '2i hello'
+
 ## OUTPUT
+
+
+![Alt text](44.png)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![Alt text](45.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![Alt text](46.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
 
+![Alt text](47.png)
 
 #Sorting File content
 cat > file21
@@ -349,8 +359,13 @@ cat > file21
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
 ``` 
+
+![Alt text](48.png)
+
 sort file21
 ## OUTPUT
+
+![Alt text](49.png)
 
 
 cat > file22
@@ -362,10 +377,13 @@ cat > file22
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
 ``` 
+
+![Alt text](50.png)
+
 uniq file22
 ## OUTPUT
 
-
+![Alt text](51.png)
 
 #Using tr command
 
