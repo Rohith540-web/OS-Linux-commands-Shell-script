@@ -133,28 +133,29 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
-
+![Alt text](exp1-13.png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![Alt text](exp1-14.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![Alt text](exp1-15.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-
+![Alt text](exp1-16.png)
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![Alt text](exp1-17.png)
 
 cat < newfile 
 ```
@@ -175,61 +176,75 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
+![Alt text](exp1-18.png)
+
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-
+![Alt text](19.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-
+![Alt text](20.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![Alt text](21.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
+![Alt text](22.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
+![Alt text](23.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
+
+![Alt text](24.png)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![Alt text](25.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-
+![Alt text](26.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
 
+![Alt text](27.png)
+
+
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+
+![Alt text](28.png)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+![Alt text](29.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+![Alt text](30.png)
 
 
 cat > file23
@@ -244,6 +259,8 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
+
+![Alt text](31.png)
 
 
 sed -n -e '3p' file23
